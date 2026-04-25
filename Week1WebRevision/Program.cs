@@ -66,11 +66,6 @@
             new Enrollment { StudentId = 10, CourseId = 3 },
             new Enrollment { StudentId = 11, CourseId = 5 }
         };
-
-            // am i here??
-
-            //asdfghjklkjnbvcxzsaedrtyujkknbvcxzxcvbn
-            // am i in the new branch ya 3mo m3 Ahmed
            
             var stu = students.Where(s=>s.Department == "CS").Select(s => s.GPA).Average();
             Console.WriteLine(stu);
