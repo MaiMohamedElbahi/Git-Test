@@ -68,6 +68,7 @@
         };
 
             // am i here??
+            //asdfghjklkjnbvcxzsaedrtyujkknbvcxzxcvbn
             var stu = students.Where(s=>s.Department == "CS").Select(s => s.GPA).Average();
             Console.WriteLine(stu);
         }
