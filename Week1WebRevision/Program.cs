@@ -67,7 +67,7 @@
             new Enrollment { StudentId = 11, CourseId = 5 }
         };
 
-
+            // am i here??
             var stu = students.Where(s=>s.Department == "CS").Select(s => s.GPA).Average();
             Console.WriteLine(stu);
         }
