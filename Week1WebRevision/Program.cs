@@ -68,6 +68,7 @@
         };
 
             // am i here??
+            // am i in the new branch
             var stu = students.Where(s=>s.Department == "CS").Select(s => s.GPA).Average();
             Console.WriteLine(stu);
         }
