@@ -68,7 +68,8 @@
         };
 
             // am i here??
-            // am i in the new branch
+            // am i in the new branch ya 3mo m3 Ahmed
+            // am i in the new branch ya 3mo m3 Ahmed
             var stu = students.Where(s=>s.Department == "CS").Select(s => s.GPA).Average();
             Console.WriteLine(stu);
         }
